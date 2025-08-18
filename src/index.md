@@ -4,7 +4,7 @@ layout: main.njk
 ---
 # Welcome to NHS Speech & Debate
 
-## Herdsfdsfse you will find all club information
+## Hello, here you will find all club information
 
 Take a look around!
 
