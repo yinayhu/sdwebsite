@@ -1,0 +1,5 @@
+# Ignore node dependencies
+node_modules/
+
+# Ignore Eleventy’s output folder
+_site/

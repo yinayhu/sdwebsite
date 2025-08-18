@@ -1,0 +1,16 @@
+---
+layout: main.njk
+---
+
+<article>
+    <h1>{{ title }}</h1>
+
+    {# if an image variable exists, image tag will be rendered #}
+    {% if image %}
+        <img src="{{ image }}" alt="{{ title }}" width="600">
+    {% endif %}
+
+    <div>
+        {{ content | safe }}
+    </div>
+</article>
