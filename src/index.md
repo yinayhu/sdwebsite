@@ -12,12 +12,16 @@ Take a look around!
 
 {% for post in collections.posts %}
 
+&nbsp;
+
 <article>
 <h2><a href="/posts/{{ post.data.slug }}/">{{ post.data.title }}</a></h2>
 {% if post.data.image %}
 <img src="{{ post.data.image }}" alt="{{ post.data.title }}" width="200" />
 {% endif %}
 </article>
+
+&nbsp;
 
 {% endfor %}
 
