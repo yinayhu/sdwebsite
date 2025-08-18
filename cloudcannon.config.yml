@@ -1,0 +1,27 @@
+_schema: _schema
+source: /src/
+paths:
+  uploads: uploads
+  static: ''
+collections_config:
+  pages:
+    path: ''
+    name: Pages
+    icon: wysiwyg
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  posts:
+    path: posts
+    name: Posts
+    icon: event_available
+    disable_url: false
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+timezone: America/Los_Angeles
+markdown:
+  engine: commonmark
+  options:
+    html: true
