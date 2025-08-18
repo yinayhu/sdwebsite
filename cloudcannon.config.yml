@@ -8,15 +8,18 @@ collections_config:
     path: ''
     name: Pages
     icon: wysiwyg
-    disable_url: false
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
   posts:
     path: posts
+    glob: []
     name: Posts
     icon: event_available
-    disable_url: false
+    description: ''
+    _enabled_editors:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
