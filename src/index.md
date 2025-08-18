@@ -2,23 +2,27 @@
 title: Home Page
 layout: main.njk
 ---
-# Welcome to NHS Speech & Debate
 
-## Hello, here you will find all club information
+<!-- Main page first section -->
+# Speech & Debate
 
-Take a look around!
+## explore
 
-# Blog Posts
+---- newport high school
 
-{% for post in collections.posts %}
+welcome to newport high school's speech & debate website! find information about tournaments, judging, events, and more!
 
-<article>
-<h2><a href="/posts/{{ post.data.slug }}/">{{ post.data.title }}</a></h2>
-{% if post.data.image %}
-<img src="{{ post.data.image }}" alt="{{ post.data.title }}" width="200" />
-{% endif %}
-</article>
+<!-- Main page second section, w/ background color change -->
+# Quick Facts
 
-{% endfor %}
+### About Us
 
-&nbsp;
+can use this opportunity to talk more about  the club--origin at newport, who leads it, our goals & visions, how the club works/basic info, what we try to promote & foster in students
+
+### Our Numbers
+
+bragging stats here! # of club members, $ raised, # of tournaments we compete in, # of parent judges & booster club volunteers, notable awards, team achievements like sweepstakes, etc.
+
+### Next Tournament
+
+next tournament date & location, sign up deadline for students & judges, time leave
