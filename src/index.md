@@ -2,6 +2,7 @@
 title: Home Page
 layout: base.njk
 heading_1: Speech
+left_subtitle: ---- newport high school
 ---
 
 <!-- Main page first section -->
