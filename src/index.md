@@ -3,6 +3,7 @@ title: Home Page
 layout: base.njk
 heading_1: Speech
 left_subtitle: ---- newport high school
+right_subtitle: welcome to our speech & debate website! find information about tournaments, judging, events, and more!
 ---
 
 <!-- Main page first section -->
