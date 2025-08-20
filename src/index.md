@@ -2,17 +2,14 @@
 title: Home Page
 layout: main.njk
 ---
-
-<!-- Main page first section -->
 # Speech & Debate
 
 ## explore
 
----- newport high school
+\---- newport high school
 
 welcome to newport high school's speech & debate website! find information about tournaments, judging, events, and more!
 
-<!-- Main page second section, w/ background color change -->
 # Quick Facts
 
 ### About Us
@@ -21,7 +18,7 @@ can use this opportunity to talk more about  the club--origin at newport, who le
 
 ### Our Numbers
 
-bragging stats here! # of club members, $ raised, # of tournaments we compete in, # of parent judges & booster club volunteers, notable awards, team achievements like sweepstakes, etc.
+bragging stats here! \# of club members, $ raised, \# of tournaments we compete in, \# of parent judges & booster club volunteers, notable awards, team achievements like sweepstakes, etc.
 
 ### Next Tournament
 
