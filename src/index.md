@@ -1,6 +1,6 @@
 ---
 title: Home Page
-layout: main.njk
+layout: base.njk
 ---
 
 <!-- Main page first section -->
