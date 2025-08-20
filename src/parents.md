@@ -1,4 +1,4 @@
 ---
-layout: parents.njk
-heading: Parents
+layout: base.njk
+title: Parents
 ---
