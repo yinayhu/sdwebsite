@@ -1,6 +1,6 @@
 ---
 title: Home Page
-layout: main.njk
+layout: index.njk
 ---
 
 <!-- Main page first section -->
@@ -10,7 +10,7 @@ layout: main.njk
 
 ---- newport high school
 
-welcome to newport high school's speech & debate website! find information about tournaments, judging, events, and more!
+welcome to our speech & debate website! find information about tournaments, judging, events, and more!
 
 <!-- Main page second section, w/ background color change -->
 # Quick Facts
