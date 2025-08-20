@@ -33,3 +33,6 @@ markdown:
   engine: commonmark
   options:
     html: true
+build:
+  command: npx @11ty/eleventy
+  output: _site
