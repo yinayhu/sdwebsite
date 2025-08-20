@@ -1,6 +1,7 @@
 ---
 title: Home Page
 layout: base.njk
+heading_1: Speech
 ---
 
 <!-- Main page first section -->
