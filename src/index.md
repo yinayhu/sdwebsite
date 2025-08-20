@@ -6,14 +6,7 @@ left_subtitle: ---- newport high school
 right_subtitle: welcome to our speech & debate website! find information about tournaments, judging, events, and more!
 ---
 
-<!-- Main page first section -->
-# Speech & Debateaoisjdoiasjdias
-
----- newport high school
-
 ### explore
-
-welcome to our speech & debate website! find information about tournaments, judging, events, and more!
 
 
 <!-- Main page second section, w/ background color change -->
