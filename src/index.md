@@ -2,12 +2,9 @@
 layout: base.njk
 title: Home Page
 ---
-
 ### explore
 
-
-<!-- Main page second section, w/ background color change -->
-# Quick Facts
+# Quick Facts hello
 
 ### About Us
 
@@ -15,7 +12,7 @@ can use this opportunity to talk more about  the club--origin at newport, who le
 
 ### Our Numbers
 
-bragging stats here! # of club members, $ raised, # of tournaments we compete in, # of parent judges & booster club volunteers, notable awards, team achievements like sweepstakes, etc.
+bragging stats here! \# of club members, $ raised, \# of tournaments we compete in, \# of parent judges & booster club volunteers, notable awards, team achievements like sweepstakes, etc.
 
 ### Next Tournament
 
