@@ -15,6 +15,7 @@ collections_config:
     disable_add_folder: false
     disable_file_actions: false
 _enabled_editors:
+  - data
   - visual
   - content
 timezone: America/Los_Angeles
