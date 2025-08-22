@@ -8,18 +8,19 @@ header nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    margin: 
+    gap: 4rem;
+    margin: 2rem;
 }
 
 header nav ul li a {
+    font-size: 1.2rem;
     text-decoration: none;
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    transition: 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 header nav ul li a:hover {
     color: red;
-    scale: 1.1;
+    transform: scale(2);
 }
