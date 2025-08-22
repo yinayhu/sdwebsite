@@ -3,7 +3,12 @@
 {% block content %}
     <h1>{{ title }}</h1>
     <section>
-        <p>{{ subtitle }}</p>
+        <h3>{{ section_1 }}</h3>
+        <p>{{ caption_1 }}</p>
+    </section>
+    <section>
+        <h3>{{ section_2 }}</h3>
+        <p>{{ caption_2 }}</p>
     </section>
     {{ content | safe }}
 {% endblock %}
