@@ -159,6 +159,8 @@ markdown:
   engine: commonmark
   options:
     html: true
+    content:
+      styles: /src/css/header.css
 build:
   command: npx @11ty/eleventy
   output: _site
