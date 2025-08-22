@@ -4,12 +4,12 @@ paths:
   uploads: uploads
   static: ''
 collections_config:
-  pages:
+  home:
     path: ''
-    name: Pages
+    name: home
     icon: wysiwyg
     disable_url: false
-    description: ''
+    description: pages for "home" section
     _enabled_editors:
     disable_add: false
     disable_add_folder: false
