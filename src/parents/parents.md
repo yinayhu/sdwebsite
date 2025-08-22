@@ -1,7 +1,7 @@
 ---
 layout: parents.njk
-title: Parents
 stylesheet: parents.css
+title: Parents
 
 section_1: Parent Judging
 caption_1: parent judges are key to successful tournaments! learn how you can become a parent judge here
