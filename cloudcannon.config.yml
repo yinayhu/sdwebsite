@@ -14,6 +14,62 @@ collections_config:
     disable_add: false
     disable_add_folder: false
     disable_file_actions: false
+  parents:
+    path: parents
+    glob:
+    name: parents
+    singular_name:
+    icon: person
+    url:
+    disable_url: false
+    include_developer_files:
+    documentation:
+    description: pages for "parents" section
+    preview:
+    sort:
+      key:
+      order:
+    sort_options:
+    _editables:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
+    add_options:
+    create:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    new_preview_url:
+    schemas:
+    schema_key:
+  tournaments:
+    path: tournaments
+    glob:
+    name: tournaments
+    singular_name:
+    icon: trophy
+    url:
+    disable_url: false
+    include_developer_files:
+    documentation:
+    description: pages for "tournaments" section
+    preview:
+    sort:
+    sort_options:
+    _editables:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
+    add_options:
+    create:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    new_preview_url:
+    schemas:
+    schema_key:
 _enabled_editors:
   - visual
   - content
