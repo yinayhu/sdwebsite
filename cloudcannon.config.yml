@@ -33,16 +33,6 @@ collections_config:
     _editables:
     _enabled_editors:
     _inputs:
-      section_1:
-        label: "title"
-        group: "section 1"
-      caption_1:
-        label: "caption"
-        group: "section 1"
-    _groups:
-      "section 1":
-        label: "section 1"
-        collapsed: true
     _select_data:
     _structures:
     add_options:
