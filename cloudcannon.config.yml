@@ -39,6 +39,10 @@ collections_config:
       caption_1:
         label: "caption"
         group: "section 1"
+    _groups:
+      "section 1":
+        label: "section 1"
+        collapsed: true
     _select_data:
     _structures:
     add_options:
