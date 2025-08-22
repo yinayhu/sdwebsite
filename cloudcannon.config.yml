@@ -70,6 +70,33 @@ collections_config:
     new_preview_url:
     schemas:
     schema_key:
+  calendar:
+    path: calendar
+    glob:
+    name: calendar
+    singular_name:
+    icon: calendar_month
+    url:
+    disable_url: false
+    include_developer_files:
+    documentation:
+    description: pages for "calendar" section
+    preview:
+    sort:
+    sort_options:
+    _editables:
+    _enabled_editors:
+    _inputs:
+    _select_data:
+    _structures:
+    add_options:
+    create:
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+    new_preview_url:
+    schemas:
+    schema_key:
 _enabled_editors:
   - visual
   - content
