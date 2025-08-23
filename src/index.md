@@ -1,4 +1,4 @@
 ---
-layout: base.njk
+layout: index.njk
 title: Home Page
 ---
