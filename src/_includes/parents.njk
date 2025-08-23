@@ -2,13 +2,15 @@
 
 {% block content %}
     <h1>{{ heading }}</h1>
-    <div class="info_1">
-        <h3>{{ section_1 }}</h3>
-        <p>{{ caption_1 }}</p>
-    </div>
-    <div class="info_2">
-        <h3>{{ section_2 }}</h3>
-        <p>{{ caption_2 }}</p>
+    <div class="content">
+        <div class="info_1">
+            <h3>{{ section_1 }}</h3>
+            <p>{{ caption_1 }}</p>
+        </div>
+        <div class="info_2">
+            <h3>{{ section_2 }}</h3>
+            <p>{{ caption_2 }}</p>
+        </div>
     </div>
     {{ content | safe }}
 {% endblock %}
