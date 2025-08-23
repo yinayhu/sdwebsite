@@ -46,11 +46,13 @@ h1 {
 }
 
 /* titles of info boxes */
-.info_1 h3, .info_2 h3 {
+.info_1 h3 a, .info_2 h3 a {
     font-size: 2.2rem;
     font-weight: 300;
     letter-spacing: -0.25rem;
     margin: 0 0 1rem 0;
+    color: #f1eee1;
+    text-decoration: none;
 }
 
 /* captions of info boxes */
