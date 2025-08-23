@@ -2,6 +2,10 @@ body {
     background-color: #384a62;
 }
 
+header nav ul li a:hover {
+    color: white;
+}
+
 /* change all text color to white */
 header nav ul li a, h1, h3, p {
     color: #f1eee1;
@@ -37,6 +41,8 @@ h1 {
     border: 0.2rem dashed #f1eee1; /* border weight, style, color */
     border-radius: 1.5rem; /* corner rounding */
     padding: 1.5rem; /* space between text and border */
+    transition: transform 0.4s ease; /* transition on hover */
+    transform-origin: center;
 }
 
 /* titles of info boxes */
@@ -63,4 +69,10 @@ h1 {
 /* right box */
 .info_2 {
     text-align: left;
+}
+
+
+/* HOVER TRANSITIONS */
+.info_1:hover, .info_2:hover {
+    transform: scale(1.05);
 }

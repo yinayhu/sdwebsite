@@ -1,5 +1,5 @@
 ---
-layout: parents.njk
+layout: parents/parents.njk
 stylesheet: parents.css
 title: Parents
 section_1: Parent Judging
