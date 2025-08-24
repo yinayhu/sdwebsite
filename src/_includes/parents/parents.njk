@@ -3,14 +3,18 @@
 {% block content %}
     <h1>{{ title }}</h1>
     <div class="content">
-        <div class="info_1">
-            <h3 class="text"><em><a href="/parents/judging">{{ section_1 }}</a></em></h3>
-            <p class="text">{{ caption_1 }}</p>
-        </div>
-        <div class="info_2">
-            <h3 class="text"><em><a href="/parents/booster">{{ section_2 }}</a></em></h3>
-            <p class="text">{{ caption_2 }}</p>
-        </div>
+        <a href="/parents/judging">
+            <div class="info_1">
+                <h3 class="text"><em>{{ section_1 }}</em></h3>
+                <p class="text">{{ caption_1 }}</p>
+            </div>
+        </a>
+        <a href="/parents/booster">
+            <div class="info_2">
+                <h3 class="text"><em>{{ section_2 }}</em></h3>
+                <p class="text">{{ caption_2 }}</p>
+            </div>
+        </a>
     </div>
     {{ content | safe }}
 {% endblock %}
