@@ -2,6 +2,7 @@ body {
     background-color: #384a62;
 }
 
+/* change nav link hover on hover */
 header nav ul li a:hover {
     color: white;
 }

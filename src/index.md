@@ -1,5 +1,6 @@
 ---
 layout: index.njk
+stylesheet: index.css
 title: Home Page
 website_title: Speech & Debate
 left_caption: ---newport high school

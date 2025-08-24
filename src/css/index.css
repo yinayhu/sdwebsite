@@ -1,0 +1,21 @@
+body {
+    background-color: #f1eee1;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 8rem;
+    font-weight: normal;
+    letter-spacing: -0.8rem;
+    margin: 7rem 0 0 0;
+}
+
+/* section separator */
+hr {
+    border: none;
+    border-top: 0.2rem dashed red;
+    height: 10px;
+    margin: 2rem 0;
+}
