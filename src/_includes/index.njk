@@ -1,15 +1,32 @@
 {% extends "base.njk" %}
 
 {% block content %}
-    <section>
+    <section id="home_page">
         <h1>{{ website_title }}</h1>
         <div class="captions">
-            <p class="left_caption">{{ left_caption }}</p>
+            <p class="left_caption" class="text">{{ left_caption }}</p>
             <div class="button">
                 <button type="button">{{ button }}</button>
             </div>
-            <p class="right_caption">{{ right_caption }}</p>
+            <p class="right_caption" class="text">{{ right_caption }}</p>
         </div>
     </section>
-    <hr>
+    <section id="quick_facts">
+        <hr>
+        <h1>{{ section_title }}</h1>
+        <div class="info">
+            <div class="info_box">
+                <h5 class="info_1_title">{{ info_1_title }}</h5>
+                <p class="text">{{ info_1_text }}</p>
+            </div>
+            <div class="info_box" class="two">
+                <h5 class="info_2_title">{{ info_2_title }}</h5>
+                <p class="text">{{ info_2_text }}</p>
+            </div>
+            <div class="info_box" class="three">
+                <h5 class="info_3_title">{{ info_3_title }}</h5>
+                <p class="text">{{ info_3_text }}</p>
+            </div>
+        </div>
+    </section>
 {% endblock %}

@@ -1,8 +1,11 @@
+/* HOME PAGE main section */
+
 body {
     background-color: #f1eee1;
+    margin: 0;
 }
 
-h1 {
+#home_page h1 {
     text-align: center;
     font-family: "Playfair Display", 'Times New Roman', Times, serif;
     font-style: italic;
@@ -10,14 +13,6 @@ h1 {
     font-weight: normal;
     letter-spacing: -0.8rem;
     margin: 7rem 0 0 0;
-}
-
-/* section separator */
-hr {
-    border: none;
-    border-top: 0.2rem dashed red;
-    height: 10px;
-    margin: 2rem 0 0 0;
 }
 
 .captions {
@@ -41,4 +36,81 @@ hr {
 .button {
     align-self: center;
     grid-column: 2;
+}
+
+/* QUICK FACTS section */
+
+/* section separator */
+hr {
+    position: absolute;
+    top: -1.5rem;
+    width: 100%;
+    border: none;
+    border-top: 0.2rem dashed #f1eee1;
+    height: 10px;
+    margin: 2rem 0 0 0;
+}
+
+#quick_facts {
+    position: relative;
+    background-color: #8f2222;
+    padding: 10rem 0;
+    min-height: 20rem;
+    width: 100%;
+}
+
+
+#quick_facts h1, 
+#quick_facts h5, 
+#quick_facts p {
+    color: #f1eee1;
+}
+
+#quick_facts h1 {
+    text-align: center;
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 8rem;
+    font-weight: normal;
+    letter-spacing: -0.8rem;
+    margin: -5rem 0 2rem;
+}
+
+/* all three info sections combined */
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10rem;
+}
+
+/* individual section boxes */
+.info_box {
+    width: 25%;
+}
+
+/* section titles */
+.info h5 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: -0.06rem;
+}
+
+/* aligning titles */
+.info_1_title {
+    text-align: right;
+}
+
+.info_2_title {
+    text-align: center;
+}
+
+.info_3_title {
+    text-align: left;
+}
+
+#quick_facts p {
+    font-family: "Inter", 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    text-align: justify;
+    margin: 0 auto;
 }
