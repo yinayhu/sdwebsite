@@ -2,15 +2,19 @@
 
 {% block content %}
     <section id="home_page">
-        <h1>{{ website_title }}</h1>
-        <div class="captions">
-            <p class="left_caption" class="text">{{ left_caption }}</p>
-            <div class="button">
-                <button type="button">{{ button }}</button>
+        <div class="image">
+            <h1>{{ website_title }}</h1>
+            <div class="captions">
+                <p class="left_caption" class="text">{{ left_caption }}</p>
+                <button class="button" type="button">
+                    <img src="../images/flower.png" alt="flower shape">
+                    <span class="button_text">{{ button }}</span>
+                </button>
+                <p class="right_caption" class="text">{{ right_caption }}</p>
             </div>
-            <p class="right_caption" class="text">{{ right_caption }}</p>
         </div>
     </section>
+
     <section id="quick_facts">
         <hr>
         <h1>{{ section_title }}</h1>
