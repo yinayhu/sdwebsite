@@ -1,5 +1,32 @@
 {% extends "base.njk" %}
 
 {% block content %}
-    <h1>{{ title }}</h1>
+    <section id="judge_intro">
+        <h1>{{ title }}</h1>
+        <button class="button" type="button">{{ heading_1 }}</button>
+        <button class="button" type="button">{{ heading_2 }}</button>
+        <button class="button" type="button">{{ heading_3 }}</button>
+        <p>scroll to learn more</p>
+    </section>
+
+    <section class="section" id="why_judge">
+        <hr>
+        <h2>{{ heading_1 }}</h2>
+        <div class="content">
+            <p>{{ section_1_content }}</p>
+            <img src="" alt="">
+        </div>
+    </section>
+
+    <section class="section" id="judge_duties">
+        <hr>
+        <h2>{{ heading_2 }}</h2>
+        <p>{{ section_3_content }}</p>
+    </section>
+
+    <section class="section" id="how_judge">
+        <hr>
+        <h2>{{ heading_3 }}</h2>
+        <p>{{ section_3_content }}</p>
+    </section>
 {% endblock %}
