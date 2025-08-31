@@ -1,0 +1,71 @@
+body {
+    background-color: #5e624b;
+}
+
+/* change nav link hover color */
+header nav ul li a:hover {
+    color: white;
+}
+
+/* change all text color to cream */
+header nav ul li a, h1, p {
+    color: #f1eee1;
+}
+
+/* page main title */
+h1 {
+    text-align: center;
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+    font-size: 7rem;
+    font-weight: normal;
+    font-style: italic;
+    text-shadow: 0 0 3rem black;
+    letter-spacing: -0.6rem;
+    margin: 3rem auto 0;
+}
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    white-space: pre-line;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 60rem;
+    margin: 5rem auto;
+    text-align: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #f1eee1;
+    outline: 0.2rem dashed #5e624b;
+    outline-offset: -0.5rem; 
+    border-radius: 1.5rem; /* rounded corners */
+    padding: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    color: #5e624b;
+    transition: transform 0.5s ease, 0.5s ease;
+  }
+
+.card a {
+    text-decoration: none;
+    color: #5e624b;
+    font-weight: normal;
+    
+}
+
+.card:hover {
+    background-color: #5e624b;
+    outline-color: #f1eee1;
+    transform: scale(1.08);
+}
+
+.card:hover a {
+    color: #f1eee1;
+}

@@ -1,6 +1,6 @@
 ---
 layout: parents/parents.njk
-stylesheet: parents.css
+stylesheet: parents/parents.css
 title: Parents
 section_1: Parent Judging
 caption_1: >-

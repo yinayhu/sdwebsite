@@ -1,5 +1,28 @@
 {% extends "base.njk" %}
 
 {% block content %}
-
+    <h1>{{ title }}</h1>
+    <section id="captions">
+        <p>{{ caption }}</p>
+    </section>
+    <section id="cards">
+        <div class="card">
+            <h3 class="text"><a href="/resources/events">Our Events</a></h3>
+        </div>
+        <div class="card">
+            <h3 class="text"><a href="/resources/club">Club Info</a></h3>
+        </div>
+        <div class="card">
+            <h3 class="text"><a href="/resources/tabroom">Tabroom</a></h3>
+        </div>
+        <div class="card">
+            <h3 class="text"><a href="../tournaments">Tournaments</a></h3>
+        </div>
+        <div class="card">
+            <h3 class="text"><a href="/resources/faq">FAQ</a></h3>
+        </div>
+        <div class="card">
+            <h3 class="text"><a href="/resources/slides">Meeting Slides</a></h3>
+        </div>
+    </section>
 {% endblock %}
