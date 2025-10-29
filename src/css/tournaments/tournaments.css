@@ -1,0 +1,64 @@
+body {
+    background-color: #f1eee1;
+}
+
+/* change nav link hover color */
+header nav ul li a:hover {
+    color: black;
+}
+
+/* change all text color to blue */
+header nav ul li a, h1, p {
+    color: #384a62;
+}
+
+/* subheading + title */
+.title {
+    text-align: center;
+    margin: 10rem auto 1rem;
+}
+
+/* "tournaments" title */
+h1 {
+    margin: -4rem auto 0;
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 8rem;
+}
+
+/* "welcome to" subheading */
+p {
+    font-size: 1.3rem;
+}
+
+/* group of buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* each individual button */
+.button {
+    background-color: #f1eee1;
+    color: #384a62;
+    border: 0.2rem dashed #384a62;
+    border-radius: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: "Inter", 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* create hover effect */
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+
+/* create hover effect */
+.button:hover {
+    background-color: #384a62;
+    color: #f1eee1;
+    transform: scale(1.05);
+    cursor: pointer;
+}

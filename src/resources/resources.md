@@ -10,4 +10,10 @@ caption: >
 
 
     ✶
+card_1: Our Events
+card_2: Club Info
+card_3: Tabroom
+card_4: Tournaments
+card_5: FAQ
+card_6: Meeting Slides
 ---

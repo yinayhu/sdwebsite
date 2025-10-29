@@ -1,0 +1,19 @@
+{% extends "base.njk" %}
+
+{% block content %}
+    <div class="title">
+        <p>{{ subheading }}</p>
+        <h1>{{ title }}!</h1>
+    </div>
+    <div class="buttons">
+        <a href="/tournaments/logistics">
+            <button class="button" type="button">{{ button_1 }}</button>
+        </a>
+        <a href="/tournaments/schedule">
+            <button class="button" type="button">{{ button_2 }}</button>
+        </a>
+        <a href="/tournaments/bring">
+            <button class="button" type="button">{{ button_3 }}</button>
+        </a>
+    </div>
+{% endblock %}
