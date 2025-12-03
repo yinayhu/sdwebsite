@@ -2,7 +2,7 @@
 node_modules/
 
 # Ignore Eleventy’s output folder
-_site/
+#_site/
 
 # Ignore .DS_store
 .DS_Store
