@@ -1,0 +1,82 @@
+body {
+    background-color: #f1eee1;
+}
+
+/* change nav link hover color */
+header nav ul li a:hover {
+    color: black;
+}
+
+/* change all text color to blue */
+header nav ul li a, h1, h2, p {
+    /*color: #384a62;*/
+    color: #8f2222;
+}
+
+/* subheading + title */
+h1 {
+    text-align: center;
+    margin: 3rem auto 1rem;
+    font-style: italic;
+    font-size: 6.5rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    margin: 5rem 1rem;
+    gap: 5rem;
+}
+
+.calendar {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 60%;
+    padding-bottom: 50%;
+    overflow: hidden;
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 10px #612c2c23;;
+    
+}
+
+.tournaments {
+    margin: 0;
+    padding: 0;
+}
+
+.tournaments h2 {
+    text-align: left;
+    font-family: "Inter";
+    padding: 0;
+    margin: auto auto 0;
+    font-weight: 400;
+    font-size: 3.5rem;
+    letter-spacing: -0.3rem;
+}
+
+.event {
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0 0 0 2rem;
+    gap: 2rem;
+    font-size: 1.5rem;
+    font-family: "Inter";
+    letter-spacing: -0.1rem;
+    white-space: nowrap;
+    line-height: 2.3rem;
+}
+
+.event .day {
+    font-weight: 600;
+    font-style: italic;
+    padding: 0;
+}
+
+.event .name {
+    font-weight: 300;
+    padding: 0;
+}

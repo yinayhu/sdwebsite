@@ -1,0 +1,81 @@
+body {
+    background-color: #384a62;
+}
+
+/* change nav link hover on hover */
+header nav ul li a:hover {
+    color: white;
+}
+
+/* change all text color to white */
+header nav ul li a, h1, h3, p {
+    color: #f1eee1;
+}
+
+/* page main title */
+h1 {
+    text-align: center;
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+    font-size: 7rem;
+    font-weight: normal;
+    letter-spacing: -0.6rem;
+    margin: 0;
+}
+
+/* both info boxes */
+.content {
+    display: flex;
+    justify-content: space-between; /* aligns the two info boxes horizontally */
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+/* info boxes w/ title + caption */
+.info_1, .info_2 {
+    font-family: "Inter", 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column; /* aligns title & caption vertically */
+    gap: 0rem;
+    width: 25%; /* width of box adjusts according to screen */
+    border: 0.2rem dashed #f1eee1; /* border weight, style, color */
+    border-radius: 1.5rem; /* corner rounding */
+    padding: 1.5rem; /* space between text and border */
+    transition: transform 0.4s ease; /* transition on hover */
+    transform-origin: center;
+}
+
+/* titles of info boxes */
+.info_1 h3 a, .info_2 h3 a {
+    font-size: 2.2rem;
+    font-weight: 300;
+    letter-spacing: -0.25rem;
+    margin: 0 0 1rem 0;
+    color: #f1eee1;
+    text-decoration: none;
+}
+
+/* captions of info boxes */
+.info_1 p, .info_2 p {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: -0.08rem;
+    margin: 0;
+}
+
+/* left box */
+.info_1 {
+    text-align: right;
+}
+
+/* right box */
+.info_2 {
+    text-align: left;
+}
+
+
+/* HOVER TRANSITIONS */
+.info_1:hover, .info_2:hover {
+    transform: scale(1.05);
+}

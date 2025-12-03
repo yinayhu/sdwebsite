@@ -1,0 +1,64 @@
+body {
+    background-color: #5e624b;
+}
+
+/* change nav link hover color */
+header nav ul li a:hover {
+    color: white;
+}
+
+/* change all text color to cream */
+header nav ul li a, h1, p {
+    color: #f1eee1;
+}
+
+/* page main title */
+h1 {
+    font-style: italic;
+    text-shadow: 0 0 3rem black;
+    margin: 3rem auto 0;
+}
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    white-space: pre-line;
+}
+
+/* group of cards */
+#cards {
+    display: grid;
+    /* creates grid of cards, 3 of equal width (1fr = 1 fraction) */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem; /* space between cards */
+    max-width: 50rem; /* max width of all the cards together */
+    margin: 5rem auto;
+    text-align: center;
+    align-items: center;
+}
+
+/* each individual card */
+.card {
+    min-width: 15rem;
+    min-height: 8rem;
+    background-color: #f1eee1; /* button color */
+    border: 0.2rem dashed #5e624b;
+    border-radius: 1.5rem; /* rounded corners */
+    padding: 1.2rem; /* space between border & text */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    letter-spacing: -0.1rem;
+    color: #5e624b;
+    /* create hover effect */
+    transition: transform 0.5s ease;
+  }
+
+/* create hover effect */
+.card:hover {
+    background-color: #484a38;
+    border: 0.1rem solid #f1eee1;
+    color: #f1eee1;
+    transform: scale(1.05);
+    cursor: pointer;
+}

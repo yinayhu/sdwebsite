@@ -1,0 +1,22 @@
+.text {
+    letter-spacing: -0.06rem;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+    font-size: 7rem;
+    font-weight: normal;
+    letter-spacing: -0.6rem;
+    margin: 0;
+}
+
+/* section separator */
+hr {
+    position: absolute;
+    width: 100%;
+    border: none;
+    border-top: 0.2rem dashed;
+    height: 10px;
+    margin: 2rem 0 0 0;
+}
