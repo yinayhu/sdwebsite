@@ -8,14 +8,14 @@ header nav ul li a:hover {
 }
 
 /* change all text color to blue */
-header nav ul li a, h1, p {
+header nav ul li a, h1, h2, p {
     color: #384a62;
 }
 
 /* subheading + title */
 .title {
     text-align: center;
-    margin: 10rem auto 1rem;
+    margin: 7rem auto 1rem;
 }
 
 /* "tournaments" title */

@@ -1,0 +1,17 @@
+{% extends "base.njk" %}
+
+{% block content %}
+    <h1>{{ title }}</h1>
+    <div class="content">
+        <div class="tournaments">
+            <h2>{{ heading }}</h2>
+            <div class="event">
+                <p class="day">{{ day | safe }}
+                <p class="name">{{ name | safe }}
+            </div>
+        </div>
+        <div class="calendar">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&showPrint=0&showCalendars=0&src=NjBkZTEzMGVhOTZhZWMyMzZiN2YwMGIzN2U5ZmQxZTFiZGQyZDM2ZTdmMzk4YTViN2Q5OGMzZjY1YTFhY2U5NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%238f2222" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+        </div>
+    </div>
+{% endblock %}
